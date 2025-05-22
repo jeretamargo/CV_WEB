@@ -2,4 +2,6 @@ body {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
+  color: #F1F5F9;
+  background-image: radial-gradient(#1F6FEB, #0A0F1F);
 }/*# sourceMappingURL=styles.css.map */
