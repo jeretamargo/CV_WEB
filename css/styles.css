@@ -1,11 +1,23 @@
 @font-face {
-  font-family: "Montserrat";
-  src: "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap";
+  font-family: "Montserrat-local";
+  src: "./datos/typo/montserrat/static/Montserrat-Light.ttf";
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Montserrat-local2";
+  src: "./datos/typo/montserrat/static/Montserrat-Light.ttf";
   font-optical-sizing: auto;
   font-style: normal;
 }
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat-local", sans-serif;
   color: #F1F5F9;
   background-image: radial-gradient(#1F6FEB, #0A0F1F);
+  font-weight: 300;
+}
+
+.nav-ul a {
+  font-family: "Montserrat-local2", sans-serif;
+  color: #ECEFF4;
 }/*# sourceMappingURL=styles.css.map */
